@@ -1,0 +1,29 @@
+input[placeholder="Email"] {
+  display: block;
+  width: 236px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 1px solid gray;
+}
+
+input[placeholder="First Name"],
+input[placeholder="Last Name"] {
+  width: 100px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: none;
+  background-color: blue;
+  color: white;
+  width: 256px;
+  font-weight: bold;
+}

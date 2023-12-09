@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+p:first-child {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+span {
+  text-decoration: underline;
+}

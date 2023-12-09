@@ -1,0 +1,16 @@
+div {
+  width: 420px;
+  background-color: rgb(61, 58, 58);
+  padding: 14px;
+}
+
+.first {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.second {
+  color: gray;
+  font-size: 12px;
+}

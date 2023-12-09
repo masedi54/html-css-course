@@ -1,0 +1,8 @@
+/* create input css with no border and have shadow around  */
+input[type="text"] {
+  border: none;
+  width: 360px;
+  padding: 10px;
+  box-shadow: 0 0 5px 1px #ccc;
+  border-radius: 25px;
+}

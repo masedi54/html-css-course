@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+.first{
+    font-size: 14px;
+    color: orange;
+}
+.second{
+    font-weight: bold;
+    font-size: 16px;
+}
+.third{
+    font-size: 48px;
+    font-weight: bold;
+}
+.fourth{
+    font-size: 14px;
+    color: gray;
+}
+button{
+    background-color: #0070c9;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+}
