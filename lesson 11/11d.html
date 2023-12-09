@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 180px);
+        grid-gap: 20px;
+      }
+
+      .container > div {
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+      }
+
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+
+      .profile {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .pp {
+        margin-left: 8px;
+        margin-bottom: 2px;
+        box-shadow: none;
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        align-items: center;
+      }
+
+      .first {
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 8px;
+        margin-bottom: 4px;
+      }
+
+      .second {
+        color: rgb(100, 100, 100);
+        margin-left: 8px;
+        margin-bottom: 12px;
+        vertical-align: middle;
+      }
+
+      button {
+        background-color: rgb(24, 119, 242);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img src="images/anime.png" alt="anime" />
+        <p class="first">Oliver</p>
+        <div class="pp">
+          <img class="profile" src="images/anime.png" alt="anime" />
+          <p class="second">2 Mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+      <div>
+        <img src="images/anime.png" alt="anime" />
+        <p class="first">Oliver</p>
+        <div class="pp">
+          <img class="profile" src="images/anime.png" alt="anime" />
+          <p class="second">3 Mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+      <div>
+        <img src="images/anime.png" alt="anime" />
+        <p class="first">Oliver</p>
+        <div class="pp">
+          <img class="profile" src="images/anime.png" alt="anime" />
+          <p class="second">4 Mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>

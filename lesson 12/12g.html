@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 12px;
+        padding: 18px;
+        margin: auto;
+        width: 50%;
+        gap: 10px;
+      }
+
+      .first,
+      .second,
+      .third {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        gap: 10px;
+      }
+
+      .user-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 280px;
+        margin: 10px 0;
+        gap: 10px;
+      }
+
+      .user-info p:first-child {
+        font-weight: bold;
+      }
+
+      .user-info p {
+        margin: 0;
+      }
+
+      button {
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: darkblue;
+      }
+
+      img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <div><img src="images/anime.png" alt="anime" /></div>
+        <div class="user-info">
+          <p>Oliver</p>
+          <p>Cat</p>
+          <p>popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="second">
+        <div><img src="images/anime.png" alt="anime" /></div>
+        <div class="user-info">
+          <p>Mimi</p>
+          <p>Cat</p>
+          <p>popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+      <div class="third">
+        <div><img src="images/anime.png" alt="anime" /></div>
+        <div class="user-info">
+          <p>Asu</p>
+          <p>Anjing</p>
+          <p>popular</p>
+        </div>
+        <div>
+          <button>Follow</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        width: 480px;
+        margin: 0 auto;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .first {
+        padding: 16px 0 0 16px;
+        color: gray;
+        font-size: 12px;
+      }
+
+      .second {
+        display: flex;
+        padding: 16px;
+        gap: 12px;
+      }
+
+      .second-one {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .second-one img {
+        width: 75%;
+        border-radius: 50%;
+      }
+
+      .second-two {
+        flex: 4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .third-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .third-one div:first-child {
+        font-weight: bold;
+      }
+
+      .third-one div:last-child {
+        color: gray;
+        font-size: 12px;
+      }
+
+      .third-two {
+        font-weight: bold;
+      }
+
+      .third-three {
+        color: gray;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">ALL INBOXES</div>
+      <div class="second">
+        <div class="second-one">
+          <img src="images/anime.png" alt="anime" />
+        </div>
+        <div class="second-two">
+          <div class="third-one">
+            <div>Chewy Promotions</div>
+            <div>4:58 PM</div>
+          </div>
+          <div class="third-two">Biggest Sales of The Year!</div>
+          <div class="third-three">
+            Hey there! We're waiting to teel you about our ...
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

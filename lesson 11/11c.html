@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px 20px;
+      }
+
+      .container > div {
+        background-color: lightblue;
+        padding: 1em;
+      }
+
+      .container > div:nth-child(odd) {
+        background-color: lightgreen;
+      }
+
+      .container > div:nth-child(3n) {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>col 1</div>
+      <div>col 2</div>
+      <div>col 3</div>
+      <div>col 4</div>
+      <div>col 5</div>
+      <div>col 6</div>
+      <div>col 7</div>
+      <div>col 8</div>
+    </div>
+  </body>
+</html>

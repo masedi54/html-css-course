@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        border: 1px solid gray;
+        border-radius: 8px;
+      }
+
+      .container > .first > div,
+      .container > .second > div {
+        margin: 12px;
+        padding: 12px;
+      }
+
+      .container > .second > div {
+        background-color: blue;
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <div>Home</div>
+        <div>Notifications</div>
+        <div>Messages</div>
+      </div>
+      <div class="second">
+        <div>14</div>
+        <div>3</div>
+        <div>5</div>
+      </div>
+    </div>
+  </body>
+</html>

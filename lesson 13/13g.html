@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 10px;
+        width: 500px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        padding: 10px;
+      }
+
+      .first {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+      }
+
+      .first img {
+        width: 75%;
+        border-radius: 50%;
+      }
+
+      .second {
+        flex: 4;
+      }
+
+      .user {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .user span {
+        font-size: 14px;
+        font-weight: normal;
+        color: gray;
+      }
+
+      .content {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      .video-link {
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        margin: 14px 0;
+      }
+
+      .video-link:hover {
+        cursor: pointer;
+      }
+
+      .gray-block {
+        background-color: rgb(209, 207, 207);
+        flex: 1;
+        border-radius: 8px 0 0 8px;
+      }
+
+      .link-to-content {
+        display: flex;
+        flex-direction: column;
+        flex: 3;
+        gap: 5px;
+        padding: 14px;
+      }
+
+      .link-to-content div:first-child {
+        font-size: 18px;
+        color: gray;
+      }
+
+      .link-to-content div:last-child {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <img src="images/anime.png" alt="anime" />
+      </div>
+      <div class="second">
+        <div class="user">supersimple.dev <span>@SuperSimpleDev</span></div>
+        <div class="content">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="video-link">
+          <div class="gray-block"></div>
+          <div class="link-to-content">
+            <div>youtube.com</div>
+            <div>Backend web development - a complete overview (2021)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
